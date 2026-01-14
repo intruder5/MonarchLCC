@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Hero() {
     return (
-        <section className="mt-32 md:mt-48 py-12 md:py-16 px-4 sm:px-6 lg:px-8 max-w-screen-2xl mx-auto">
+        <section className="mt-32 md:mt-48 py-12 md:py-16 px-4 sm:px-6 lg:px-8 max-w-screen-2xl  mx-auto">
             <div className="grid md:grid-cols-2 gap-16 lg:gap-24 xl:gap-32 items-center bg-zinc-50 rounded-3xl shadow-xl overflow-hidden">
                 <div className="max-w-2xl px-10 py-10 md:px-14 lg:px-20">
                     <h1 className="font-mono text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-orange-600 leading-tight mb-12">
@@ -30,7 +30,7 @@ export default function Hero() {
                     <div className="absolute inset-0 bg-orange-600 rounded-3xl transform rotate-3 scale-105"></div>
                     <img
                         src="herodude.jpg"
-                        alt="Financial services representative"
+                        alt=""
                         className="w-full h-full object-cover rounded-2xl shadow-2xl relative z-10"
                     />
                 </div>

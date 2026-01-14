@@ -1,6 +1,8 @@
-import Hero from '@/components/Hero/hero'
-import Nav from "@/components/Hero/nav"
-
+import Hero from '@/components/Hero/hero';
+import Nav from "@/components/Hero/nav";
+import Crd from "@/components/Hero/card";
+import Third from "@/components/Hero/third";
+import Footer from "@/components/Hero/footer";
 
 
 export default function App() {
@@ -8,6 +10,9 @@ export default function App() {
         <div>
             <Nav/>
             <Hero/>
+            <Crd />
+            <Third/>
+            <Footer />
         </div>
     )
 }
